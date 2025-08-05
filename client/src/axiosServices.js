@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = `http://localhost:3100`
+const baseURL = `http://35.175.139.4:3100`
 
 export const axiosGet = (url) =>{
     return axios.get(`${baseURL}${url}`, {
